@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7861e67c-cc47-4400-94ba-5c1752e9f96c" name="Default Changelist" comment="">
+    <list default="true" id="7861e67c-cc47-4400-94ba-5c1752e9f96c" name="Default Changelist" comment="Install requests">
       <change afterPath="$PROJECT_DIR$/s1c/pinger.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/s1u/pinger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -29,7 +29,28 @@
       <recent name="C:\Dev\PycharmProjects\PSCORE\BTSPINGER" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.pinger">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BTSPINGER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="BTSPINGER" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,6 +72,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pinger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BTSPINGER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s1u" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s1u/pinger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pinger" />
+        <item itemvalue="Python.config" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,9 +109,33 @@
       <option name="presentableId" value="Default" />
       <updated>1600098457261</updated>
     </task>
+    <task id="LOCAL-00001" summary="Install paramiko">
+      <created>1600170553653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600170553653</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Install requests">
+      <created>1600170585787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600170585787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Install paramiko" />
+    <MESSAGE value="Install requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Install requests" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600252473362">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600252473362" />
     <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1600098784947">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -76,5 +148,25 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="437" y="66" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600098856290" />
+    <state width="1259" height="562" key="GridCell.Tab.0.bottom" timestamp="1600253107612">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="562" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600253107612" />
+    <state width="1259" height="562" key="GridCell.Tab.0.center" timestamp="1600253107611">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="562" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600253107611" />
+    <state width="1259" height="562" key="GridCell.Tab.0.left" timestamp="1600253107611">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="562" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600253107611" />
+    <state width="1259" height="562" key="GridCell.Tab.0.right" timestamp="1600253107611">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="562" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600253107611" />
+    <state x="303" y="41" key="search.everywhere.popup" timestamp="1600247457445">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1600247457445" />
   </component>
 </project>
