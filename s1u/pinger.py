@@ -170,8 +170,8 @@ def procedure(host, spgw_addresses, enodebes, file_path):
 
 def main():
     ultrahosts = StarOS.ultrahosts
-    host_1 = ultrahosts.get("brest")[0].get("host")
-    host_2 = ultrahosts.get("brest")[1].get("host")
+    host_1 = ultrahosts.get("mogilev")[0].get("host")
+    host_2 = ultrahosts.get("mogilev")[1].get("host")
     print("Getting SPGW addresses from first node...")
     ssh = SSH(host=host_1, user=user, password=secret)
     shell = ssh.connect().invoke_shell()
@@ -189,7 +189,7 @@ def main():
     print("Getting SPGW addresses from second node successfully")
 
     print(f"Getting EnodeB's from Netbox...")
-    enodebes = get_all_enodeb_from_region("brest")
+    enodebes = get_all_enodeb_from_region("mogilev")
     print(len(enodebes))
     print(f"Getting EnodeB's from Netbox successfully")
 
